@@ -1,8 +1,8 @@
 'use client';
 import Link from 'next/link';
 import { Phone } from 'lucide-react';
-import { List } from 'phosphor-react';
-import GetQuote from './GetQuote';
+import { List } from '@phosphor-icons/react';
+import GetQuote from '../ui/GetQuoteButton';
 
 export default function Header() {
   return (

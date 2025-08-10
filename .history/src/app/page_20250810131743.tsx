@@ -5,14 +5,11 @@ import WhyChooseUs from '@/components/home/WhyChooseUs';
 
 export default function Page() {
   return (
-    <div className="w-full">
+    <div className="w-full max-w-sm sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <GetQuoteSection />
-
-      <div className="w-full max-w-sm sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <ServiceSection />
-        <WhyChooseUs />
-        <ServiceAreasSection />
-      </div>
+      <ServiceSection />
+      <WhyChooseUs />
+      <ServiceAreasSection />
     </div>
   );
 }

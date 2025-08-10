@@ -11,8 +11,9 @@ export default function Page() {
       <div className="w-full max-w-sm sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ServiceSection />
         <WhyChooseUs />
-        <ServiceAreasSection />
       </div>
+
+      <ServiceAreasSection />
     </div>
   );
 }

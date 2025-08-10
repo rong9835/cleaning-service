@@ -193,10 +193,13 @@ export default function PrivacyPolicy() {
             </p>
             <ul className="space-y-2">
               <li>
-                <strong>Email:</strong> [jayandannacleaning@gmail.com]
+                <strong>Email:</strong> [회사의 이메일]
               </li>
               <li>
-                <strong>Phone:</strong> [0474-724-805]
+                <strong>Phone:</strong> [회사의 전화번호]
+              </li>
+              <li>
+                <strong>Address:</strong> [회사 주소]
               </li>
             </ul>
           </div>

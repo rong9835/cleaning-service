@@ -44,11 +44,19 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_AU',
     siteName: 'Jay & Anna Cleaning Service Sydney',
-    images: ['/logo/logo.png'],
+    images: [{
+      url: '/logo/logo.png',
+      width: 1200,
+      height: 630,
+      alt: 'Jay & Anna Cleaning Service Logo',
+    }],
   },
   twitter: {
-    card: 'summary',
-    images: ['/logo/logo.png'],
+    card: 'summary_large_image',
+    images: [{
+      url: '/logo/logo.png',
+      alt: 'Jay & Anna Cleaning Service Logo',
+    }],
   },
 };
 

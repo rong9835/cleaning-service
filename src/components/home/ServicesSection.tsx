@@ -48,7 +48,7 @@ export default function ServiceSection() {
   ];
 
   return (
-    <section>
+    <section id="Service">
       <h2 className="text-4xl font-semibold py-4">Services</h2>
       {/* 모바일에서만 보이는 섹션 */}
       <div className="sm:hidden w-full">

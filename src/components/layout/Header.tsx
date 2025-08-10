@@ -13,7 +13,7 @@ export default function Header() {
             <Link href="/" className="block">
               <div className="w-56 h-14">
                 <Image
-                  src="/logo/Logo.png"
+                  src="/logo/logo.png"
                   alt="Logo"
                   width={224}
                   height={56}

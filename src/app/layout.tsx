@@ -40,6 +40,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  openGraph: {
+    type: 'website',
+    locale: 'en_AU',
+    siteName: 'Jay & Anna Cleaning Service Sydney',
+    images: ['/logo/logo.png'],
+  },
+  twitter: {
+    card: 'summary',
+    images: ['/logo/logo.png'],
+  },
 };
 
 export default function RootLayout({

@@ -49,10 +49,18 @@ export const metadata: Metadata = {
     description: 'Premium cleaning services in Sydney. House cleaning, office cleaning, window cleaning, deep cleaning & regular cleaning across South & South-Western Sydney.',
     images: [
       {
+        url: '/logo/logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Jay & Anna Cleaning Service Sydney - Professional Cleaners',
+        type: 'image/png',
+      },
+      {
         url: '/images/main.jpg',
         width: 1200,
         height: 630,
         alt: 'Jay & Anna Professional Cleaning Service Sydney',
+        type: 'image/jpeg',
       },
     ],
   },
@@ -60,7 +68,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Jay & Anna Cleaning Service Sydney | Professional House & Office Cleaning',
     description: 'Premium cleaning services in Sydney. Get your free quote today!',
-    images: ['/images/main.jpg'],
+    images: ['/logo/logo.png'],
   },
   alternates: {
     canonical: 'https://jayannacleaningservice.com.au',

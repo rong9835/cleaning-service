@@ -21,7 +21,7 @@ export default function GetQuoteSection() {
           <div className="text-white max-w-xl mb-8 lg:mb-0 text-center lg:text-left px-2">
             <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4 leading-tight">
               Experience the Difference
-              <br /> of a Professional Clean
+              <br /> of a Professional Clean in Sydney
             </h1>
           </div>
           <div className="w-full max-w-md lg:w-96 lg:max-w-none">

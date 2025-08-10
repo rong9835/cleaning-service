@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
 
     if (userRequests.length >= 5) {
       return NextResponse.json(
-        { error: '너무 많은 요청입니다. 잠시 후 다시 시도해주세요.' },
+        { error: 'Too many requests. Please try again later.' },
         { status: 429 }
       );
     }
@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
     // 데이터 검증
     if (!name || !phone || !address || !service) {
       return NextResponse.json(
-        { error: '필수 정보가 누락되었습니다.' },
+        { error: 'Required information is missing.' },
         { status: 400 }
       );
     }
@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
     // 데이터 길이 제한
     if (name.length > 100 || phone.length > 50 || address.length > 500) {
       return NextResponse.json(
-        { error: '입력 데이터가 너무 깁니다.' },
+        { error: 'Input data is too long.' },
         { status: 400 }
       );
     }
@@ -64,7 +64,7 @@ export async function POST(request: NextRequest) {
     const phoneRegex = /^[0-9\-\+\s\(\)]+$/;
     if (!phoneRegex.test(phone)) {
       return NextResponse.json(
-        { error: '올바른 전화번호 형식이 아닙니다.' },
+        { error: 'Please enter a valid phone number format.' },
         { status: 400 }
       );
     }
@@ -112,7 +112,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error('Email sending error:', error);
     return NextResponse.json(
-      { error: '이메일 전송 중 오류가 발생했습니다.' },
+      { error: 'An error occurred while sending email.' },
       { status: 500 }
     );
   }

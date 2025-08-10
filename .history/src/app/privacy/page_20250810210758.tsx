@@ -26,8 +26,8 @@ export default function PrivacyPolicy() {
             </p>
             <p className="leading-relaxed">
               This Privacy Policy explains how we collect, use, disclose, and
-              safeguard your information when you use our website
-              [www.jayannacleaning.com.au] and our services.
+              safeguard your information when you use our website [] and our
+              services.
             </p>
             <p className="leading-relaxed">
               We are bound by the Australian Privacy Principles (APPs) contained
@@ -193,10 +193,13 @@ export default function PrivacyPolicy() {
             </p>
             <ul className="space-y-2">
               <li>
-                <strong>Email:</strong> [jayandannacleaning@gmail.com]
+                <strong>Email:</strong> [회사의 이메일]
               </li>
               <li>
-                <strong>Phone:</strong> [0474-724-805]
+                <strong>Phone:</strong> [회사의 전화번호]
+              </li>
+              <li>
+                <strong>Address:</strong> [회사 주소]
               </li>
             </ul>
           </div>

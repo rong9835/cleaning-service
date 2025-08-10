@@ -184,7 +184,7 @@ export default function TermsAndConditions() {
           <h2 className="text-2xl font-semibold mb-4 text-gray-900">Contact</h2>
           <div className="space-y-2">
             <p>
-              <strong>Email:</strong> [JayandAnnacleaning@gmail.com]
+              <strong>Email:</strong> [회사의 이메일]
             </p>
             <p>
               <strong>Phone:</strong> [0474-724-805]

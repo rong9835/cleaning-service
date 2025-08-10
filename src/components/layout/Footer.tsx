@@ -15,7 +15,7 @@ export default function Footer() {
               <div>
                 <p>Call</p>
                 <Link href="tel:0474724805" className="hover:underline">
-                  047-472-4805
+                  0474-724-805
                 </Link>
               </div>
             </div>
@@ -39,7 +39,7 @@ export default function Footer() {
                   href="mailto:jayandannacleaning@gmail.com"
                   className="hover:underline"
                 >
-                  jayandannacleaning@gmail.com
+                  JayandAnnacleaning@gmail.com
                 </Link>
               </div>
             </div>

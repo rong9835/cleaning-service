@@ -193,7 +193,7 @@ export default function PrivacyPolicy() {
             </p>
             <ul className="space-y-2">
               <li>
-                <strong>Email:</strong> [jayandannacleaning@gmail.com]
+                <strong>Email:</strong> []
               </li>
               <li>
                 <strong>Phone:</strong> [0474-724-805]

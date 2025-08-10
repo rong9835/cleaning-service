@@ -5,8 +5,8 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <footer className="bg-[#747474] text-white">
-      <div className="container mx-auto p-6 md: lg:px-40">
-        <div className="flex flex-col md:flex-row md:justify-between gap-3">
+      <div className="container mx-auto p-4 w-full max-w-sm sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl ">
+        <div className="flex flex-col sm:flex-row sm:justify-between gap-3">
           {/* 왼쪽 */}
           <div className="space-y-3">
             {/* 전화번호*/}
@@ -15,7 +15,7 @@ export default function Footer() {
               <div>
                 <p>Call</p>
                 <Link href="tel:0474724805" className="hover:underline">
-                  047-472-4805
+                  0474-724-805
                 </Link>
               </div>
             </div>

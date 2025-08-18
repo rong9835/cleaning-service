@@ -17,7 +17,7 @@ const abrilFatface = Abril_Fatface({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://jayannacleaningservice.com.au'),
+  metadataBase: new URL('https://jayannacleaning.com.au'),
   title: {
     default: 'Jay & Anna Cleaning Service Sydney | Professional House & Office Cleaning',
     template: '%s | Jay & Anna Cleaning Service Sydney'
@@ -46,12 +46,13 @@ export const metadata: Metadata = {
     siteName: 'Jay & Anna Cleaning Service Sydney',
     title: 'Jay & Anna Cleaning Service Sydney | Professional House & Office Cleaning',
     description: 'Premium cleaning services in Sydney. Jay & Anna offers house cleaning, office cleaning, window cleaning, deep cleaning & regular cleaning across South & South-Western Sydney.',
-    url: 'https://jayannacleaningservice.com.au',
+    url: 'https://jayannacleaning.com.au',
     images: [{
-      url: 'https://jayannacleaningservice.com.au/logo/logo.png',
-      width: 1920,
-      height: 800,
-      alt: 'Jay & Anna Cleaning Service Logo',
+      url: 'https://jayannacleaning.com.au/og-image.png',
+      width: 1200,
+      height: 630,
+      alt: 'Jay & Anna Cleaning Service - Professional Cleaning in Sydney',
+      type: 'image/png',
     }],
   },
   twitter: {
@@ -59,8 +60,8 @@ export const metadata: Metadata = {
     title: 'Jay & Anna Cleaning Service Sydney | Professional House & Office Cleaning',
     description: 'Premium cleaning services in Sydney. Jay & Anna offers house cleaning, office cleaning, window cleaning, deep cleaning & regular cleaning across South & South-Western Sydney.',
     images: [{
-      url: 'https://jayannacleaningservice.com.au/logo/logo.png',
-      alt: 'Jay & Anna Cleaning Service Logo',
+      url: 'https://jayannacleaning.com.au/og-image.png',
+      alt: 'Jay & Anna Cleaning Service - Professional Cleaning in Sydney',
     }],
   },
 };

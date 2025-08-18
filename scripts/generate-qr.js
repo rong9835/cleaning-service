@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 async function generateQRCode() {
-  const url = 'https://jayannacleaningservice.com.au';
+  const url = 'https://jayannacleaning.com.au';
   const outputPath = path.join(__dirname, '../public/qr-code.png');
   
   try {

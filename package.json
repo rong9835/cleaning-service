@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate-qr": "node scripts/generate-qr.js"
+    "generate-qr": "node scripts/generate-qr.js",
+    "create-og-image": "node scripts/create-og-image.js"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
@@ -21,6 +22,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.60.0",
+    "sharp": "^0.34.3",
     "swiper": "^11.2.6"
   },
   "devDependencies": {

@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="bg-white">
+    <header className="bg-white fixed top-0 left-0 right-0 z-50 shadow-md">
       <div className="container mx-auto px-0 max-w-sm sm:max-w-2xl lg:max-w-5xl xl:max-w-7xl">
         <div className="flex items-center justify-between">
           {/* 로고 */}

@@ -88,7 +88,7 @@ export default function RootLayout({
         itemType="http://schema.org/WebPage"
       >
         <Header />
-        <main className="flex-1" role="main">{children}</main>
+        <main className="flex-1 pt-16" role="main">{children}</main>
         <Footer />
       </body>
     </html>
